@@ -1,0 +1,286 @@
+.mainDiv {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+.mainDiv .back {
+  background-color: #b83021;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  fill: white;
+  cursor: pointer;
+  transition: ease 0.1s;
+}
+
+.mainDiv .back:hover {
+  transform: scale(1.1);
+}
+
+.mainDiv h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.inputTextDiv {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+
+.inputTextDiv > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.inputTextDiv > div label {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.inputRadioDiv p {
+  text-align: center;
+  padding: 0 5px;
+  border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+.inputRadioDiv {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px 15px 15px 15px;
+  row-gap: 10px;
+}
+
+.inputRadioDiv > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputRadioDiv > div > div {
+  display: flex;
+  column-gap: 5px;
+}
+
+.inputTextDiv span {
+  padding-left: 10px;
+}
+
+.inputRadioDiv span,
+.inputTextDiv span,
+.exercisesError {
+  color: #f33849;
+  font-size: 15px;
+}
+
+.inputRadioDiv span,
+.exercisesError {
+  text-align: center;
+}
+
+.mainDiv input[type="radio"] {
+  cursor: pointer;
+  accent-color: #b83021;
+}
+
+.mainDiv input[type="text"],
+.mainDiv select {
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 18px;
+  border: 2px solid rgb(150, 150, 150);
+  font-size: 16px;
+}
+
+.mainDiv select {
+  cursor: pointer;
+  min-width: 180px;
+}
+
+.addExerciseDiv {
+  border-radius: 20px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 5px black;
+  cursor: pointer;
+  background-color: rgb(30, 30, 30);
+  row-gap: 10px;
+  border: 5px solid rgb(0, 0, 0);
+  transition: ease 0.1s;
+}
+
+.addExerciseDiv:hover {
+  transform: scale(1.05);
+}
+
+.addExerciseDiv svg {
+  width: 25%;
+  height: 25%;
+  fill: black;
+}
+
+.addExerciseDiv h2 {
+  color: black;
+}
+
+.smallAddExerciseDiv {
+  border-radius: 20px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 5px black;
+  cursor: pointer;
+  background-color: rgb(30, 30, 30);
+  border: 5px solid rgb(0, 0, 0);
+  transition: ease 0.1s;
+}
+
+.smallAddExerciseDiv:hover {
+  transform: scale(1.05);
+}
+
+.smallAddExerciseDiv svg {
+  width: 35px;
+  height: 35px;
+  fill: black;
+}
+
+.addExercise {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+
+.addExercise h3 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.exerciseDetailsDiv {
+  border-radius: 20px;
+  height: 170px;
+  display: flex;
+  box-shadow: 0 3px 5px black;
+  background-color: rgb(30, 30, 30);
+  border: 5px solid rgb(0, 0, 0);
+  transition: ease 0.1s;
+  overflow: hidden;
+  position: relative;
+}
+.exerciseDetailsDiv > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.exerciseDetailsDiv img {
+  max-width: 200px;
+  height: 100%;
+}
+
+.exerciseDetailsDiv h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.exerciseDetailsDiv span {
+  font-size: 15px;
+  text-align: left;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.exerciseDetailsDiv .exerciseInputs {
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.exerciseDetailsDiv .exerciseInputs input {
+  border-radius: 20px;
+  border: 2px solid rgb(100, 100, 100);
+  padding: 5px;
+  text-indent: 10px;
+  max-width: 60px;
+}
+
+.exerciseDetailsDiv .exerciseInputs label {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.exerciseDetailsDiv svg {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  fill: white;
+}
+
+.exerciseDetailsDiv svg:hover {
+  fill: #f33849;
+}
+
+.submitButton {
+  width: 100%;
+  border-radius: 30px;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #b83021;
+  border: 1px solid #2c2c2c;
+  box-shadow: 0px 2px 3px black;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.submitButton:hover {
+  transform: scale(1.05);
+  background-color: #a3291b;
+}
+
+@keyframes errorInput {
+  0% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.inputError {
+  border: 1px solid #f33849 !important;
+  animation: errorInput ease 0.1s;
+}

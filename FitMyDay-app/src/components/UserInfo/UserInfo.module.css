@@ -1,0 +1,47 @@
+.userIconDiv {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #b83021;
+  box-shadow: 0px 1px 5px black;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 150;
+}
+
+.userIcon {
+  color: white;
+}
+
+.userNav {
+  position: absolute;
+  right: 0;
+  top: 55px;
+  background-color: #b83021;
+  width: 110px;
+  padding: 15px 0px;
+  border-radius: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 1px 3px black;
+}
+
+.userNav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  align-items: center;
+  transition: ease 0.1s;
+}
+
+.userNav li a:hover,
+.active {
+  background-color: #a3291b !important;
+}

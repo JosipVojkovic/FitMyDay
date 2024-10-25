@@ -1,0 +1,109 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-top: 40px;
+}
+
+.mainDiv h1 {
+  text-align: center;
+}
+
+.addWorkoutDiv {
+  border-radius: 20px;
+  width: 590px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 5px black;
+  cursor: pointer;
+  background-color: rgb(30, 30, 30);
+  row-gap: 10px;
+  border: 5px solid rgb(0, 0, 0);
+  transition: ease 0.1s;
+}
+
+.scaleDown {
+  border-radius: 15px;
+  width: 590px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 5px black;
+  cursor: pointer;
+  background-color: rgb(30, 30, 30);
+  row-gap: 10px;
+  border: 4px solid rgb(0, 0, 0);
+  transition: ease 0.1s;
+}
+
+.addWorkoutDiv:hover,
+.scaleDown:hover {
+  transform: scale(1.05);
+}
+
+.addWorkoutDiv h2 {
+  font-size: 18px;
+  color: black;
+}
+
+.addWorkoutDiv svg {
+  width: 25%;
+  height: 25%;
+  fill: black;
+}
+
+.scaleDown svg {
+  width: 70%;
+  height: 70%;
+  fill: black;
+}
+
+.workoutDiv {
+  border-radius: 20px;
+  overflow: hidden;
+  background: left no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 180px;
+  display: flex;
+  box-shadow: 0 3px 5px black;
+  transition: ease 0.1s;
+  cursor: pointer;
+}
+
+.workoutDiv > div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 300px;
+  row-gap: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.workoutDiv:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 7px #ed213a;
+}
+
+.workoutDiv h1 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.workoutDiv h2 {
+  font-size: 16px;
+}
+
+.workoutDiv h2::first-letter {
+  text-transform: uppercase;
+}

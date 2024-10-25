@@ -1,0 +1,112 @@
+[
+  {
+    "userId": "mqo85yucv",
+    "id": "i7kzb638a",
+    "name": "Best lower body workout",
+    "category": "lower body",
+    "equipment": "bodyweight",
+    "level": "beginner",
+    "exercises": [
+      {
+        "id": 24,
+        "name": "Goblet Squat",
+        "sets": 3,
+        "reps": 12
+      },
+      {
+        "id": 25,
+        "name": "Dumbell Lunges",
+        "sets": 3,
+        "reps": 12
+      },
+      {
+        "id": 26,
+        "name": "Romanian Deadlifts",
+        "sets": 3,
+        "reps": 12
+      },
+      {
+        "id": 27,
+        "name": "Dumbell Step-Ups",
+        "sets": 3,
+        "reps": "12 each leg"
+      },
+      {
+        "id": 28,
+        "name": "Bulgarian Split Squats",
+        "sets": 3,
+        "reps": "12 each leg"
+      },
+      {
+        "id": 29,
+        "name": "Dumbbell Calf Raises",
+        "sets": 3,
+        "reps": 15
+      },
+      {
+        "id": 30,
+        "name": "Dumbbell Glute Bridges",
+        "sets": 3,
+        "reps": 15
+      }
+    ]
+  },
+  {
+    "userId": "mqo85yucv",
+    "id": "i7kzb638b",
+    "name": "Upper body workout",
+    "category": "upper body",
+    "equipment": "bodyweight",
+    "level": "beginner",
+    "exercises": [
+      {
+        "id": 16,
+        "name": "Bodyweight Squat",
+        "sets": 3,
+        "reps": 15
+      },
+      {
+        "id": 17,
+        "name": "Calf Raises",
+        "sets": 3,
+        "reps": 15
+      },
+      {
+        "id": 18,
+        "name": "Alternating Lunges",
+        "sets": 3,
+        "reps": 16
+      },
+      {
+        "id": 19,
+        "name": "Alternating Side Lunges",
+        "sets": 3,
+        "reps": 16
+      },
+      {
+        "id": 20,
+        "name": "Lateral Side Steps",
+        "sets": 3,
+        "reps": "12 each side"
+      },
+      {
+        "id": 21,
+        "name": "Glute Bridges",
+        "sets": 3,
+        "reps": 15
+      },
+      {
+        "id": 22,
+        "name": "Bird Dogs",
+        "sets": 3,
+        "reps": 16
+      },
+      {
+        "id": 23,
+        "name": "Side Lying Adductions",
+        "sets": 3,
+        "reps": "12 each side"
+      }
+    ]
+  }
+]

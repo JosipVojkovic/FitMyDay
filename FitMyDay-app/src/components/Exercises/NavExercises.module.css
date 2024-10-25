@@ -1,0 +1,94 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 400px;
+  min-width: 200px;
+  height: auto;
+  background-color: black;
+  list-style-type: none;
+  padding: 15px 0;
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+  border: 3px solid black;
+  position: absolute;
+  z-index: 150;
+}
+
+.nav li a {
+  width: 90%;
+  display: block;
+  padding: 12px;
+  border: 1px solid rgb(30, 30, 30);
+  cursor: pointer;
+  transition: 0.1s ease-out;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.nav li a:hover {
+  background-color: #a3291b;
+}
+
+.nav > li > ul {
+  display: none;
+}
+
+.nav > li > ul > li > a {
+  font-size: 17px;
+  padding-left: 20px;
+  border: none;
+  transition: 0.1s ease-out;
+}
+
+.nav > li > ul > li > a:hover,
+.subCategoryActive {
+  background-color: transparent;
+  padding-left: 35px !important;
+}
+
+.nav li a:first-child {
+  border-top: none;
+}
+
+.nav li a::first-letter {
+  text-transform: uppercase;
+}
+
+.active {
+  background-color: #a3291b;
+}
+
+.nav li a img {
+  height: 25px;
+  width: 30px;
+  float: right;
+  margin-right: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.circleStyle {
+  position: absolute;
+  left: 15px;
+  color: #a3291b;
+}
+
+.nav h2 {
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  background: linear-gradient(to top left, #fb3149, #ed213a, #b83021, #a3291b);
+  border-radius: 0 30px 30px 0;
+  margin: 20px 20px 0 0;
+  padding: 10px 10px 10px 0;
+  text-transform: uppercase;
+  animation: categoryAnimation 0.1s ease-out;
+}
+
+@keyframes categoryAnimation {
+  from {
+    transform: translateX(-150px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

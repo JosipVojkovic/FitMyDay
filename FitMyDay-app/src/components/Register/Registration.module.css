@@ -1,0 +1,137 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  min-width: 400px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem 3.5rem 2.5rem;
+  background-color: rgba(0, 0, 0, 0.77);
+  border-radius: 20px;
+  border: 2px solid #232323;
+}
+
+.loginOrRegister {
+  background-color: white;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  box-shadow: 0px 2px 3px black;
+}
+
+.loginOrRegister a {
+  flex: 50%;
+  padding: 5px 0;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.loginOrRegister a:hover {
+  text-decoration: underline;
+}
+
+.loginOrRegisterNotSelected {
+  background-color: transparent;
+  color: black;
+}
+
+.loginOrRegisterSelected {
+  background-color: #b83021;
+  color: white;
+}
+
+.loginForm h1 {
+  font-size: 40px;
+  color: white;
+  margin-top: 30px;
+}
+
+.loginDiv {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 0.5rem;
+}
+
+.loginDiv label {
+  text-indent: 20px;
+  font-size: 17px;
+  color: white;
+}
+
+.input {
+  border-radius: 30px;
+  padding: 12px 0;
+  text-indent: 20px;
+  font-size: 18px;
+  border: 2px solid #2c2c2c;
+}
+
+.errorInput {
+  border-radius: 30px;
+  padding: 12px 0;
+  text-indent: 20px;
+  font-size: 18px;
+  border: 2px solid #b83021;
+  animation: errorInput ease 0.1s;
+}
+
+@keyframes errorInput {
+  0% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.loginDiv i {
+  position: absolute;
+  right: 1.1rem;
+  top: 2.8rem;
+}
+
+.loginDiv p {
+  text-indent: 20px;
+  font-size: 14px;
+}
+
+.loginForm button {
+  width: 100%;
+  border-radius: 30px;
+  padding: 12px 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #b83021;
+  border: 1px solid #2c2c2c;
+  box-shadow: 0px 2px 3px black;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.loginForm button:hover {
+  transform: scale(1.05);
+  background-color: #a3291b;
+}
+
+.loginForm p {
+  color: white;
+}
+
+.loginForm p a {
+  color: #b83021;
+}
+
+.loginError {
+  color: #b83021 !important;
+  margin-top: -25px;
+}

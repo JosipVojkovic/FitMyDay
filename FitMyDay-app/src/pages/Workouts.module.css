@@ -1,0 +1,39 @@
+.workouts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  row-gap: 20px;
+  background: url("https://wallpapers.com/images/high/4k-carbon-fiber-plain-nsteylouzdj0xkrq.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  min-height: 100vh;
+}
+
+.workouts .h1 {
+  font-size: 40px;
+  color: white;
+  z-index: 1000;
+  position: relative;
+}
+
+.headingDiv {
+  position: relative;
+}
+
+.workouts .bgHeading {
+  position: absolute;
+  bottom: -20%;
+  right: 10%;
+  font-family: "Saira Stencil One", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 70px;
+  z-index: 2;
+}
+
+.workouts p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 32px;
+}

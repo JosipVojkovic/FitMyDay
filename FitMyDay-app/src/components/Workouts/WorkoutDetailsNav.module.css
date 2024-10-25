@@ -1,0 +1,85 @@
+.nav {
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+  justify-content: center;
+  background-color: black;
+  margin: 0 auto;
+  border-radius: 30px;
+  position: relative;
+  width: 30%;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav > li > a {
+  text-align: center;
+  padding: 10px 15px;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  transition: ease 0.1s;
+}
+
+.nav > li > a:hover {
+  background-color: #f33849;
+}
+
+.activeCategory {
+  background-color: #f33849;
+}
+
+.activeCategory > i {
+  transform: rotate(180deg);
+}
+
+.activeCategory a {
+  color: white !important;
+}
+
+.nav > li > a > i {
+  font-size: 12px;
+}
+
+.nav a {
+  display: block;
+  padding: 3px 20px;
+  cursor: pointer;
+}
+
+.nav > li > ul > li {
+  color: black !important;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.nav > li > ul {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0);
+  background-color: rgb(224, 224, 224);
+  border-radius: 0px 0px 15px 15px;
+  overflow: hidden;
+}
+
+.nav ul > li:hover {
+  background-color: #f33849;
+  color: white !important;
+}
+
+.nav ul li a {
+  border-right: 0.5px solid rgb(200, 200, 200);
+  border-left: 0.5px solid rgb(200, 200, 200);
+}
+
+.nav ul li:first-child a {
+  border-left: none;
+}
+
+.nav ul li:last-child a {
+  border-right: none;
+}

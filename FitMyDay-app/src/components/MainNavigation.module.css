@@ -1,0 +1,65 @@
+.header {
+  max-width: 100%;
+  margin: auto;
+  padding: 1.7rem 2rem;
+  display: flex;
+  column-gap: 100px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  position: relative;
+}
+
+.header h2 {
+  color: white;
+  font-size: 2em;
+  background: linear-gradient(to top left, #fb3149, #ed213a, #b83021, #a3291b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header nav {
+  margin-left: auto;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: white;
+  transition: 1s ease;
+}
+
+.list a:hover,
+.list .active {
+  border-bottom: 1px solid white !important;
+}
+
+.header .login {
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 25px;
+  background-color: #b83021;
+  cursor: pointer;
+  color: white;
+  transition: 0.1s ease;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.header .login i {
+  font-size: 16px;
+}
+
+.header .login:hover {
+  background-color: #a3291b;
+}

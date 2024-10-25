@@ -1,0 +1,143 @@
+[
+  {
+    "id": "ykehhazlx",
+    "userId": "mqo85yucv",
+    "name": "Snatch",
+    "equipment": "barbell",
+    "category": [
+      "pull",
+      "push",
+      "compound",
+      "legs",
+      "barbell"
+    ],
+    "main-targeted-area": [
+      "quadriceps",
+      "glutes",
+      "lower back"
+    ],
+    "other-targeted-muscles": [
+      "shoulders",
+      "upper back",
+      "hamstrings",
+      "calves"
+    ],
+    "level": "advanced",
+    "technique": "Stand with your feet hip-width apart, toes pointed outward, and a loaded barbell on the floor in front of you. Squat down and grip the bar using an overhand grip or hook grip. Drive your feet into the floor and extend your hips while pulling the barbell upward. As the barbell reaches the mid-thigh region, explosively pop your hips, open your shoulders, and start pulling with your arms. Drop beneath the bar in a partial squat position, stabilizing the bar overhead. Fully extend your arms in the overhead lockout position, then push through your heels to stand up, fully extending your hips and knees, and finish the rep.",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/bodybuilder-royalty-free-image-1624638105.jpg?crop=0.658xw:1.00xh;0.236xw,0&resize=640:*"
+  },
+  {
+    "id": "ykehhazlx",
+    "userId": "bi8vryxv6",
+    "name": "Snatch",
+    "equipment": "barbell",
+    "category": [
+      "pull",
+      "push",
+      "compound",
+      "legs",
+      "barbell"
+    ],
+    "main-targeted-area": [
+      "quadriceps",
+      "glutes",
+      "lower back"
+    ],
+    "other-targeted-muscles": [
+      "shoulders",
+      "upper back",
+      "hamstrings",
+      "calves"
+    ],
+    "level": "advanced",
+    "technique": "Stand with your feet hip-width apart, toes pointed outward, and a loaded barbell on the floor in front of you. Squat down and grip the bar using an overhand grip or hook grip. Drive your feet into the floor and extend your hips while pulling the barbell upward. As the barbell reaches the mid-thigh region, explosively pop your hips, open your shoulders, and start pulling with your arms. Drop beneath the bar in a partial squat position, stabilizing the bar overhead. Fully extend your arms in the overhead lockout position, then push through your heels to stand up, fully extending your hips and knees, and finish the rep.",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/bodybuilder-royalty-free-image-1624638105.jpg?crop=0.658xw:1.00xh;0.236xw,0&resize=640:*"
+  },
+  {
+    "id": "di6uua08i",
+    "userId": "bi8vryxv6",
+    "name": "Single leg deadlift",
+    "equipment": "dumbells",
+    "category": [
+      "compound",
+      "legs",
+      "dumbells"
+    ],
+    "main-targeted-area": [
+      "glutes",
+      "hamstrings"
+    ],
+    "other-targeted-muscles": [
+      "core",
+      "lower back"
+    ],
+    "level": "advanced",
+    "technique": "Begin standing with your feet hip-width apart and parallel. Hold a kettlebell, a barbell or two dumbbells in your hands down in front of you. Lean forward in your hips, shifting your weight onto one leg while your other leg engages and starts to extend straight behind you. Lift your extended leg and pitch your body forward until your body forms a “T” shape. Your arms should be hanging straight down, holding onto the weight. Keep a slight bend in your standing leg. Slowly bring in your extended leg and return to starting position. Repeat with the other leg.",
+    "image": "https://images.squarespace-cdn.com/content/v1/5d31ed671abe780001b2964d/4ac409fa-6f55-444f-b258-60a30c0b09e3/image-asset.jpeg"
+  },
+  {
+    "id": "p1fktg8ia",
+    "userId": "bi8vryxv6",
+    "name": "Hip bridge",
+    "equipment": "bodyweight",
+    "category": [
+      "push",
+      "legs",
+      "bodyweight"
+    ],
+    "main-targeted-area": [
+      "glutes",
+      "hamstrings"
+    ],
+    "other-targeted-muscles": [
+      "lower back",
+      "core"
+    ],
+    "level": "beginner",
+    "technique": "Tighten your abdominal and buttock muscles by pushing your low back into the ground. \nRaise your hips to create a straight line from your knees to your shoulders.\nSqueeze your core and pull your belly button back toward your spine. \nHold for 20 to 30 seconds.\\nLower the hips to return to the starting position.",
+    "image": "https://cdn.mos.cms.futurecdn.net/qiebTeJqjA7Fwr7Q988seQ.jpg"
+  },
+  {
+    "id": "tfg5qqqwt",
+    "userId": "bi8vryxv6",
+    "name": "Lunges",
+    "equipment": "bodyweight",
+    "category": [
+      "push",
+      "legs",
+      "bodyweight"
+    ],
+    "main-targeted-area": [
+      "quadriceps",
+      "glutes"
+    ],
+    "other-targeted-muscles": [
+      "hamstrings"
+    ],
+    "level": "beginner",
+    "technique": "Bend the knees and lower your body until the back knee is a few inches from the floor. At the bottom of the movement, the front thigh is parallel to the ground, the back knee points toward the floor, and your weight is evenly distributed between both legs.\nPush back up to the starting position, keeping your weight on the heel of the front foot.",
+    "image": "https://parade.com/.image/t_share/MTk1Mzk2NDg4MjQxNjE5OTkx/forward-lunge-vs-reverse-lunge.jpg"
+  },
+  {
+    "id": "bstck2e18",
+    "userId": "bi8vryxv6",
+    "name": "Lat pulldown",
+    "equipment": "machine",
+    "category": [
+      "pull",
+      "back",
+      "arms",
+      "machine"
+    ],
+    "main-targeted-area": [
+      "middle back"
+    ],
+    "other-targeted-muscles": [
+      "shoulders",
+      "upper back"
+    ],
+    "level": "beginner",
+    "technique": "Grasp the bar with a wide grip with an overhand, knuckles-up grip. Other positions and grips are possible but start with this standard position.\nPull the bar down until it's approximately level with the chin. Exhale on the downward motion. While shifting slightly backward is OK, aim to keep your upper torso stationary. Keep your feet flat on the floor and engage your abs as you pull. The bottom of the motion should be where your elbows can't move downward anymore without moving backward. Be sure to stop at that point and do not go lower.\nSqueeze the shoulder blades together while maintaining square shoulders.\nFrom the bottom position, with the bar close to your chin, slowly return the bar to the starting position while controlling its gradual ascent. Don't let it crash into the weight plates.",
+    "image": "https://www.dmoose.com/cdn/shop/articles/feature-image_5640325e-b598-4308-a2e5-cd92450120c7.jpg?v=1676996563"
+  }
+]

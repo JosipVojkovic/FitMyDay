@@ -1,0 +1,97 @@
+.nav {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  column-gap: 35px;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.nav ul {
+  display: flex;
+  padding-left: 280px;
+  list-style-type: none;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 3px 0;
+  transition: 0.1s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.nav > ul > li > a:hover,
+.active {
+  border-bottom: 2px solid #f33849 !important;
+  text-shadow: 0 0 3px #fff, 0 0 7px #fff, 0 0 12px #e60073, 0 0 17px #e60073,
+    0 0 22px #e60073, 0 0 26px #e60073, 0 0 31px #e60073;
+}
+
+.nav div {
+  margin-right: 80px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.nav button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f33849;
+  border: 2px solid #f33849;
+  color: white;
+  transition: ease 0.05s;
+  display: flex;
+  align-items: center;
+}
+
+.nav button:hover {
+  transform: scale(1.1);
+}
+
+.nav button i {
+  margin-left: 5px;
+}
+
+.nav .button {
+  background-color: transparent !important;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+}
+
+.nav .button:hover {
+  background-color: white !important;
+  color: black;
+}
+
+.button i,
+.activeButton i {
+  position: relative;
+}
+
+.activeButton i {
+  font-size: 18px;
+}
+
+.nav .activeButton {
+  background-color: white;
+  border: none;
+  align-items: center;
+  display: flex;
+  color: black;
+}
+
+.activeButton i span {
+  position: absolute;
+  left: 3.85px;
+  top: 3.4px;
+  color: white;
+  font-size: 14px;
+}

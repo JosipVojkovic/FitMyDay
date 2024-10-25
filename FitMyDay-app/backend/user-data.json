@@ -1,0 +1,111 @@
+[
+  {
+    "id": "bi8vryxv6",
+    "name": "Josip Vojkovic",
+    "email": "josip.vojkovic0@gmail.com",
+    "password": "Jopa@Jopa",
+    "attributes": {
+      "height": "175",
+      "weight": "75",
+      "age": "25",
+      "targetWeight": "70",
+      "gender": "male",
+      "activityLevel": "Moderately active"
+    },
+    "favourite-exercises": [
+      3,
+      1,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "mqo85yucv",
+    "name": "Marko Biuk",
+    "email": "marko.biuk@gmail.com",
+    "password": "Marko123",
+    "attributes": {
+      "height": "190",
+      "weight": "75",
+      "age": "25",
+      "targetWeight": "73",
+      "gender": "male",
+      "activityLevel": "Lightly active"
+    },
+    "favourite-exercises": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "bc4qpnkl0",
+    "name": "Dea",
+    "email": "dea.celan@gmail.com",
+    "password": "deacelan123",
+    "attributes": {
+      "height": "178",
+      "weight": "65",
+      "age": "24",
+      "targetWeight": "60",
+      "gender": "female",
+      "activityLevel": "Lightly active"
+    }
+  },
+  {
+    "id": "07rwpiwf9",
+    "name": "jelena",
+    "email": "jelenkusa@gmail",
+    "password": "12345678",
+    "attributes": {
+      "height": "169",
+      "weight": "67",
+      "age": "23",
+      "targetWeight": "60",
+      "gender": "female",
+      "activityLevel": "Moderately active"
+    }
+  },
+  {
+    "id": "tyuo8wd2t",
+    "name": "Sanda",
+    "email": "vojkovic.sanda@gmail.com",
+    "password": "enarf123",
+    "attributes": {
+      "height": "165",
+      "weight": "57",
+      "age": "49",
+      "targetWeight": "54",
+      "gender": "female",
+      "activityLevel": "Lightly active"
+    }
+  },
+  {
+    "id": "xfgl3le41",
+    "name": "Lucija",
+    "email": "lucija.spralja@gmail.com",
+    "password": "lucija123",
+    "attributes": {
+      "height": "167",
+      "weight": "65",
+      "age": "22",
+      "targetWeight": "60",
+      "gender": "female",
+      "activityLevel": "Not active"
+    }
+  },
+  {
+    "id": "28b34k7el",
+    "name": "Stipe",
+    "email": "stipe.stipic@gmail.com",
+    "password": "Stipe123",
+    "attributes": {
+      "height": "190",
+      "weight": "90",
+      "age": "30",
+      "targetWeight": "80",
+      "gender": "male",
+      "activityLevel": "Lightly active"
+    }
+  }
+]

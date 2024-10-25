@@ -1,0 +1,189 @@
+.loginForm {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  min-width: 400px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem 3.5rem 2.5rem;
+  background-color: rgba(0, 0, 0, 0.77);
+  border-radius: 20px;
+  border: 2px solid #232323;
+}
+
+.loginForm h1 {
+  font-size: 40px;
+  color: white;
+  margin-top: 30px;
+}
+
+.loginForm h2 {
+  color: white;
+  margin-top: 20px;
+}
+
+.wheelDiv {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: start;
+  position: relative;
+}
+
+.underweight {
+  background-color: #60ccf3;
+  position: absolute;
+  width: 50%;
+  left: 0%;
+  top: 50%;
+  height: 200px;
+  transform: translate(0%, -50%);
+  border-radius: 50rem 0rem 0 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.underweight p,
+.normalWeight p {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.overweight p {
+  transform: rotate(-135deg);
+  margin-bottom: 50px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.obese p {
+  transform: rotate(-90deg);
+  font-weight: bold;
+}
+
+.normalWeight {
+  background-color: #63bc46;
+  position: absolute;
+  width: 50%;
+  left: 46.8%;
+  top: 29.8%;
+  transform: translate(-50%, -50%) rotate(40deg);
+  height: 200px;
+  border-radius: 50rem 0rem 0 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.overweight {
+  background-image: linear-gradient(
+    to top right,
+    #f78f2c 0%,
+    #f78f2c 50%,
+    transparent 50%,
+    transparent 100%
+  );
+  position: absolute;
+  width: 50%;
+  right: 0%;
+  top: 50%;
+  transform: translate(0%, -50%) rotate(90deg);
+  height: 200px;
+  border-radius: 50rem 0rem 0 0;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.obese {
+  background-color: #ee3928;
+  position: absolute;
+  width: 50%;
+  right: 0%;
+  top: 50%;
+  transform: translate(0%, -50%) rotate(90deg);
+  height: 200px;
+  border-radius: 50rem 0rem 0 0;
+  color: black;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.smallCircle {
+  background-color: black;
+  width: 15%;
+  height: 30px;
+  border-radius: 40rem 40rem 0 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+}
+
+.arrow {
+  position: absolute;
+  width: 200px;
+  height: 70px;
+  left: 25%;
+  bottom: -15%;
+  transform-origin: center right;
+  filter: grayscale(100%) brightness(0%);
+}
+
+.weightCategoryDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.weightCategory {
+  height: 250px;
+}
+
+.weightParagraphsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  row-gap: 5px;
+}
+
+.loginForm button {
+  width: 100%;
+  border-radius: 30px;
+  padding: 12px 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #b83021;
+  border: 1px solid #2c2c2c;
+  box-shadow: 0px 2px 3px black;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.loginForm button:hover {
+  transform: scale(1.05);
+  background-color: #a3291b;
+}
+
+.loginForm p {
+  color: white;
+}
+
+.loginForm p a {
+  color: #b83021;
+}

@@ -1,0 +1,53 @@
+.getStarted {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../assets/bg-get-started.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.getStarted div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  justify-content: center;
+  width: 60%;
+}
+
+.getStarted h1 {
+  color: rgb(235 173 63);
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
+  font-style: italic;
+}
+
+.getStarted a {
+  width: 290px;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 3px solid #b83021;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 14px 0px;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  transition: 0.1s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.getStarted a:hover {
+  background-color: #b83021;
+  transform: scale(1.1);
+}
+
+.getStarted span {
+  color: #b83021;
+  font-size: 34px;
+}

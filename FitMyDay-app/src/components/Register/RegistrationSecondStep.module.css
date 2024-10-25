@@ -1,0 +1,230 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  min-width: 400px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem 3.5rem 2.5rem;
+  background-color: rgba(0, 0, 0, 0.77);
+  border-radius: 20px;
+  border: 2px solid #232323;
+}
+
+.loginForm h1 {
+  font-size: 40px;
+  color: white;
+  margin-top: 30px;
+}
+
+.loginForm h2 {
+  color: white;
+  margin-top: 20px;
+}
+
+.bmiDescriptionIcon {
+  margin-right: 10px;
+}
+
+.bmiDescriptionIconClicked {
+  transform: rotate(90deg);
+}
+
+.loginDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  row-gap: 0.5rem;
+}
+
+.loginDiv div {
+  display: flex;
+  align-items: center;
+}
+
+.loginDiv label {
+  text-indent: 20px;
+  font-size: 17px;
+  color: white;
+  margin-right: 5px;
+}
+
+.input {
+  border-radius: 30px;
+  width: 50px;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: 2px solid #2c2c2c;
+}
+
+.errorInput {
+  border-radius: 30px;
+  padding: 12px 0;
+  text-indent: 20px;
+  font-size: 18px;
+  border: 2px solid #b83021;
+  animation: errorInput ease 0.1s;
+}
+
+@keyframes errorInput {
+  0% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.loginDiv p {
+  text-indent: 20px;
+  font-size: 14px;
+}
+
+.genderMainDiv {
+  column-gap: 15px;
+  align-items: flex-end;
+}
+
+.genderDiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.genderDiv img {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.male:hover {
+  transform: scale(1.1);
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
+}
+
+.maleClicked {
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
+}
+
+.female:hover {
+  transform: scale(1.1);
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(275deg)
+    brightness(110%) contrast(80%);
+}
+
+.femaleClicked {
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(275deg)
+    brightness(110%) contrast(80%);
+}
+
+.femaleClicked:hover {
+  transform: none;
+}
+
+.maleClicked:hover {
+  transform: none;
+}
+
+.genderDiv h3 {
+  color: white;
+}
+
+.loginForm button {
+  width: 100%;
+  border-radius: 30px;
+  padding: 12px 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #b83021;
+  border: 1px solid #2c2c2c;
+  box-shadow: 0px 2px 3px black;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.loginForm button:hover {
+  transform: scale(1.05);
+  background-color: #a3291b;
+}
+
+.loginForm p {
+  color: white;
+}
+
+.loginForm p a {
+  color: #b83021;
+}
+
+.activityMainDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1rem;
+}
+
+.activityDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.activityDiv div {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: flex-start;
+  width: 180px;
+}
+
+.activityDiv input[type="radio"] {
+  border: none;
+  cursor: pointer;
+  accent-color: #b83021;
+  transform: scale(1.2);
+}
+
+.list {
+  color: white;
+  padding: 15px 20px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+.list li {
+  padding: 5px 0;
+}
+
+.pageNumDiv {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: -40px;
+}
+
+.pageNumDiv input[type="radio"] {
+  border: none;
+  cursor: pointer;
+  accent-color: rgb(23, 109, 208);
+}
+
+.loginForm .skipAndRegister {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  margin-top: -15px;
+}
+
+.loginForm .skipAndRegister:hover {
+  background-color: white;
+  color: black;
+}

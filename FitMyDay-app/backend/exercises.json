@@ -1,0 +1,876 @@
+[
+  {
+    "id": 1,
+    "name": "Two-arm Dumbell Rows",
+    "image": "https://i.pinimg.com/564x/41/f6/8a/41f68aaf1c39b3501bc195fd8df5a32a.jpg",
+    "gif": "https://i.pinimg.com/originals/c8/92/49/c89249371e09ecbdf2992250e973dfe5.gif",
+    "equipment": "dumbells",
+    "level": "intermediate",
+    "category": ["pull", "dumbells", "back", "compound"],
+    "main-targeted-area": ["upper back", "middle back"],
+    "other-targeted-muscles": ["chest", "shoulders", "biceps"],
+    "technique": [
+      "Stand with your legs shoulder-width apart, and knees slightly bent. Hold a dumbbell in each hand, shoulder-width, with your palms facing each other.",
+      "Bend over at a 45-degree angle (no lower) and take a deep breath in.",
+      "Pull the dumbbells up, toward the sides of your chest, or beside the bottom of your rib cage on an exhale.",
+      "Lift to the point your range of motion allows. While lifting, keep the wrists from moving as much as possible.",
+      "Lower the weights in a controlled manner to the starting position as you inhale. Remain bent over until all repetitions are complete."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Deadlift",
+    "image": "https://ritapt.com/wp-content/uploads/2020/12/barbell-conventional-deadlift-anatomy-2.png",
+    "gif": "https://modusx.de/wp-content/uploads/klassisches-kreuzheben.gif",
+    "equipment": "barbell",
+    "level": "advanced",
+    "category": ["pull", "back", "legs", "compound", "barbell"],
+    "main-targeted-area": ["lower back", "hamstrings", "glutes"],
+    "other-targeted-muscles": ["core", "quadriceps", "shoulders"],
+    "technique": [
+      "Position the feet shoulder-width apart (or not much more) with toes under the bar.",
+      "The feet point straight ahead, or they can angle out slightly. Heels should stay flat on the surface.",
+      "When you lift, the bar will travel close to the shins and may even graze them. Maintain a neutral spine position. Stabilize the abdominal muscles by bracing them.",
+      "Squat down, bending at the knees. The form for descending to the bar is similar (but not identical) to the squat, with your back straight or arched slightly and not rounded at the shoulders or spine. Grasp the bar just outside the line of the knees with an overhand or mixed grip.",
+      "Lift the bar by pushing upward with the legs from the knees. Breathe out on exertion. Be careful not to raise the hips first so the trunk moves forward and the back becomes rounded. Don’t try to haul the bar up with your arms. The arms stay extended under tension while gripping the bar as the legs push up. Think of the legs and shoulders moving upward in unison with the hips, the balancing point.",
+      "The bar should almost graze the shins and rest around thigh level as you reach full height. Pull the shoulders back as much as possible without bending backward. Lower the bar to the floor with a reverse motion ensuring a straight back. Repeat for your desired number of repetitions."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dead Bug",
+    "image": "https://i.pinimg.com/564x/85/d3/6b/85d36b6c98b41debe88cd2404ea54258.jpg",
+    "gif": "https://modusx.de/wp-content/uploads/dead-bug-kaefer-uebung.gif",
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["core", "bodyweight"],
+    "main-targeted-area": ["core"],
+    "other-targeted-muscles": ["none"],
+    "technique": [
+      "Lie on the mat with your arms extended straight over your chest so they form a perpendicular angle with your torso.",
+      "Bend your hips and knees 90-degrees, lifting your feet from the ground. Your torso and thighs should form a right angle, as should your thighs and shins. This is the starting position.",
+      "Engage your core, maintaining contact between your lower back and the mat. You want to make sure your spine maintains this steady and neutral position throughout the exercise.",
+      "Keep your right arm and left leg exactly where they are, then slowly reach your left arm backward, over your head and toward the floor as you simultaneously extend your right knee and hip, reaching your right heel toward the floor.",
+      "Move slowly and steadily, breathing in as you perform the extensions, avoiding any twisting or movement of your hips and abs. Stop the movement just before your arm and leg touch the ground.",
+      "Reverse the movement and return your left arm and right leg to their starting positions. Move slowly and steadily, exhaling as you go.",
+      "Perform the same movements to the opposite sides, this time keeping your left arm and right leg steady as you extend your right arm and left leg."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Dumbell Bicep Curls",
+    "image": "https://i.pinimg.com/564x/7f/d9/64/7fd96475bd009dfc5fd00b8a450a46b8.jpg",
+    "gif": "https://modusx.de/wp-content/uploads/klassische-kurzhantel-curls.gif",
+    "equipment": "dumbells",
+    "level": "beginner",
+    "category": ["pull", "arms", "dumbells"],
+    "main-targeted-area": ["biceps"],
+    "other-targeted-muscles": ["forearm"],
+    "technique": [
+      "Begin standing tall with your feet about hip-width apart. Keep your abdominal muscles engaged.",
+      "Hold one dumbbell in each hand. Let your arms relax down at the sides of your body with palms facing forward.",
+      "Keep your upper arms stable and shoulders relaxed, bend at the elbow and lift the weights so that the dumbbells approach your shoulders. Or for a full range of motion, raise the dumbbells to your eyes or forehead level.",
+      "Your elbows should stay tucked in close to your body. Exhale while lifting.",
+      "Lower the weights to the starting position. Perform the desired reps."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Barbell Squat",
+    "image": "https://i.pinimg.com/564x/ba/7e/76/ba7e76ff2720212bc455b21888291991.jpg",
+    "gif": "https://i.pinimg.com/originals/ba/1b/ce/ba1bce3e30058ca6b043afd0a9a92b56.gif",
+    "equipment": "barbell",
+    "level": "advanced",
+    "category": ["legs", "barbell"],
+    "main-targeted-area": ["quadriceps", "glutes", "compound"],
+    "other-targeted-muscles": ["hamstrings", "calf"],
+    "technique": [
+      "Stand with feet hip or shoulder-width apart. Place the barbell just above the shoulders on the trapezius muscles, or the 'meaty' part of the shoulders.",
+      "Bend the knees and lower into a squat. Stop when your knees are at a 90-degree angle or before you lose the natural arch of your back.",
+      "Contract the glutes and legs while stabilizing your body with a strong torso.",
+      "Stand back up slowly, without locking the knees."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Push Ups",
+    "image": "https://i.pinimg.com/564x/28/87/8d/28878d2dbe8caa961e44e82978a7a01e.jpg",
+    "gif": "https://modusx.de/wp-content/uploads/breite-liegestuetze.gif",
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["push", "chest", "compound", "bodyweight"],
+    "main-targeted-area": ["chest"],
+    "other-targeted-muscles": ["triceps", "shoulders"],
+    "technique": [
+      "Contract your abs and tighten your core by pulling your belly button toward your spine.",
+      "Inhale as you slowly bend your elbows and lower yourself to the floor, until your elbows are at a 90-degree angle.",
+      "Exhale while contracting your chest muscles and pushing back up through your hands, returning to the start position. "
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Pull Ups",
+    "image": "https://i.pinimg.com/564x/87/7c/f8/877cf8ff058b026e17b69aabb0fa04d6.jpg",
+    "gif": "https://modusx.de/wp-content/uploads/klimmzuege-mit-breitem-griff-pull-up.gif",
+    "equipment": "none",
+    "level": "intermediate",
+    "category": ["pull", "back", "arms", "compound", "bodyweight"],
+    "main-targeted-area": ["middle back", "biceps"],
+    "other-targeted-muscles": ["upper back", "triceps"],
+    "technique": [
+      "Grab a pull-up bar overhead, maintaining a slightly flexed wrist, with knuckles pointed straight up.",
+      "Establish a firm grip and 'pack' shoulders (scapular depression) and keep your neck long.",
+      "Think of your hands as hooks and pull your elbows straight down to your sides, maintaining a braced core, similar to a hollow hold Use your lats and pull up to your complete functional range of motion.",
+      "Lower your body in a controlled manner, once again taking it through your full range of motion and stopping before complete shoulder extension (keep shoulders 'packed')"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Arnold Press",
+    "image": "https://i.pinimg.com/564x/cb/be/b6/cbbeb6c3eb7009f59ae75bdb2118e1ea.jpg",
+    "gif": "https://modusx.de/wp-content/uploads/arnold-press-kurzhanteln.gif",
+    "equipment": "dumbells",
+    "level": "intermediate",
+    "category": ["push", "arms", "compound", "dumbells"],
+    "main-targeted-area": ["shoulders"],
+    "other-targeted-muscles": ["triceps", "upper back"],
+    "technique": [
+      "Set up an adjustable angle bench to 90 degrees and select the desired weight from the rack.",
+      "Pick up the dumbbells from the floor using a neutral grip (palms facing in). Position the end of the dumbbells on your knees and sit down on the bench.",
+      "Using a safe and controlled motion, kick your knees up one at a time in order to get each dumbbell into place.",
+      "Once the dumbbells are in place, rotate your palms so they are facing you.",
+      "Take a deep breath then press the dumbbells overhead by extending the elbows and contracting the deltoids. As you press, rotate the dumbbells until your palms are facing forward.",
+      "Slowly lower the dumbbells back to the starting position (the arms should be roughly 90 degrees or slightly lower depending upon limb lengths)."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Bench Press",
+    "image": "https://i.pinimg.com/564x/c6/4e/a9/c64ea9a4aeec242e709e0ee4f0e06c2e.jpg",
+    "gif": "https://modusx.de/wp-content/uploads/bankdruecken-langhantel.gif",
+    "equipment": "barbell",
+    "level": "intermediate",
+    "category": ["push", "chest", "arms", "compound", "barbell"],
+    "main-targeted-area": ["chest", "shoulders"],
+    "other-targeted-muscles": ["triceps"],
+    "technique": [
+      "Draw your shoulder blades back behind you to keep from pressing with rounded shoulders.",
+      "Grasp the barbell using an overhand grip, placing your thumbs on the outside of your closed fist.",
+      "Your arms are slightly wider than shoulder-width apart and the angle of your upper arms is about 45 degrees to the body.",
+      "Remove the barbell from the rack, locking your elbows. (Don't move the bar in an arc from the rack directly to the chest position).",
+      "Inhale while lowering the bar to your chest, at the nipple line.",
+      "Exhale as you press the bar above your chest, extending your arms. Don't watch the bar—focus on the ceiling.",
+      "Lower the bar so it is just above your chest. This is the starting position for the next bench press."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Machine Flyes",
+    "image": "https://i.pinimg.com/564x/ed/4d/1f/ed4d1f6ce1bdbb4cda128ac708272500.jpg",
+    "gif": "https://modusx.de/wp-content/uploads/butterfly-maschine-parallelgriff.gif",
+    "equipment": "machine",
+    "level": "beginner",
+    "category": ["push", "chest", "machine"],
+    "main-targeted-area": ["chest"],
+    "other-targeted-muscles": ["shoulders"],
+    "technique": [
+      "Set up the chest fly machine so that when seated, the handles are at chest height and in line with the shoulders.",
+      "Select the weight then sit down, making sure your head and back is firmly against the seat.",
+      "Grab the handles with your palms facing each other and pin your shoulder blades back.",
+      "Take a deep breath before squeezing your chest muscles and pushing the handles together and in front of your chest.",
+      "Keep a soft bend in the elbows and shoulders pinned throughout.",
+      "Slowly return the handles back to the start."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Heel Touches",
+    "image": "https://www.hevyapp.com/wp-content/uploads/heel-taps.png",
+    "gif": "https://modusx.de/wp-content/uploads/heel-touches.gif",
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["core", "bodyweight"],
+    "main-targeted-area": ["core"],
+    "other-targeted-muscles": [],
+    "technique": [
+      "To start, lie on your back with your feet separated and flat on the floor. Bend your knees at 90 degrees. Arms should be extended at your sides, fingers pointing downward.",
+      "Lift your head to crunch forward towards your torso. You want to pull your bellybutton in towards your spine.",
+      "As you hold this position, be sure to not tuck your chin down; you want your neck in a neutral position, eyes directed towards the ceiling.",
+      "Start reaching one hand at a time towards your heels in a swiveling or side bend motion.",
+      "Continue to alternate each heel touch squeezing your oblique muscles. With every tap, exhale from your mouth."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Overhead Press",
+    "image": "https://i.pinimg.com/564x/68/b3/08/68b3085c84f625014518dee1289f3b4a.jpg",
+    "gif": "https://modusx.de/wp-content/uploads/schulterdruecken-kurzhanteln-stehend.gif",
+    "equipment": "dumbells",
+    "level": "beginner",
+    "category": ["push", "arms", "compound", "dumbells"],
+    "main-targeted-area": ["shoulders"],
+    "other-targeted-muscles": ["triceps", "chest"],
+    "technique": [
+      "Stand upright and keep the back straight. Hold a dumbbell in each hand, at the shoulders, with an overhand grip. Thumbs are on the inside and knuckles face up.",
+      "Exhale as you raise the weights above the head in a controlled motion.",
+      "Pause briefly at the top of the motion.",
+      "Inhale and return the dumbbells to the shoulders."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Triceps Dips",
+    "image": "https://i.pinimg.com/736x/32/0d/48/320d48f772015c876f0f9402c01966a6.jpg",
+    "gif": "https://modusx.de/wp-content/uploads/trizeps-dips-haengend-unterstuetzt.gif",
+    "equipment": "none",
+    "level": "intermediate",
+    "category": ["push", "arms", "bodyweight", "compound"],
+    "main-targeted-area": ["triceps"],
+    "other-targeted-muscles": ["chest", "shoulder", "middle back"],
+    "technique": [
+      "Stand between the dip bars, ideally ones that allow your hands to be relatively within two inches outside of shoulder width.",
+      "Set your hands evenly on the bars. Squeeze your shoulder blades together and squeeze the bars hard.",
+      "Flex your elbows and lower your body, keeping your torso upright and your core tight until your elbows are bent at 90 degrees.",
+      "Drive through your palms to raise your body back to the starting position. Your torso should be nearly vertical, with perhaps a slight lean forward.",
+      "Flex your triceps hard at the top."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Triceps Pushdown",
+    "image": "https://i.pinimg.com/564x/94/07/d3/9407d3feaed67b4425291710bca4c0bc.jpg",
+    "gif": "https://modusx.de/wp-content/uploads/trizeps-pushdown-kabelzug-seil.gif",
+    "equipment": "machine",
+    "level": "beginner",
+    "category": ["push", "arms", "machine"],
+    "main-targeted-area": ["triceps"],
+    "other-targeted-muscles": [],
+    "technique": [
+      "Start by bracing your abdominals. Tuck your elbows in at your sides and position your feet slightly apart.",
+      "Inhale and push down until your elbows are fully extended but not yet in the straight, locked position.",
+      "Keep your elbows close to your body and bend your knees slightly on the pushdown. Resist bending forward. Try to keep your back as straight as possible as you push down.",
+      "As you exhale, return to the starting point using a controlled movement."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Hammer Curls",
+    "image": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+    "gif": "https://modusx.de/wp-content/uploads/hammer-curls-stehend-kurzhanteln.gif",
+    "equipment": "dumbells",
+    "level": "beginner",
+    "category": ["pull", "arms", "dumbells"],
+    "main-targeted-area": ["biceps"],
+    "other-targeted-muscles": ["forearm"],
+    "technique": [
+      "Bend at the elbow, lifting the lower arms to pull the weights toward the shoulders.",
+      "Your upper arms are stationary and the wrists are in line with the forearms.",
+      "Hold for one second at the top of the movement. Your thumbs will be close to the shoulders and palms facing in, toward the midline of the body.",
+      "Lower the weights to return to the starting position."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Bodyweight Squat",
+    "main-targeted-area": ["quadriceps", "glutes", "hamstrings"],
+    "other-targeted-muscles": ["abductors"],
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["bodyweight", "legs", "push", "compound"],
+    "image": "https://i.pinimg.com/564x/ad/a9/c5/ada9c5c2a03bc8fd664134cbed1990a4.jpg",
+    "gif": "https://www.inspireusafoundation.org/wp-content/uploads/2021/06/bodyweight-squat-2.gif",
+    "technique": [
+      "Stand with feet shoulder-width, with toes slightly turned outward.",
+      "Tighten up your core to stabilize yourself, start to shift your weight back into your heels while pushing your hips behind you as you squat down.",
+      "Continue to lower yourself until your thighs are almost parallel to the floor. Your feet should remain flat on the ground, and your knees should remain over your toes.",
+      "Keep your spine neutral, chest out and push through the heel to return to the start position.  Keep the core tight."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Calf Raises",
+    "main-targeted-area": ["calves"],
+    "other-targeted-muscles": ["none"],
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["bodyweight", "legs", "push"],
+    "image": "https://i.pinimg.com/564x/a7/bc/58/a7bc58bee3756788c30078bf146d5f06.jpg",
+    "gif": "https://lh5.googleusercontent.com/MjhsMcHej0K4Iwkohfs-mqDk4gDA5HPsvPVmqma3kOkToOuB2j846_Pfb6Bb-OQxgYRlQ6eGdtAygtoxLjjyPTxb_Hwrp1MUb6FOpagP-97q_e8ZIRyZ2TNUfYUXEhdYN9aBjEd8TyUeOpAnbs3s7w",
+    "technique": [
+      "Raise your heels slowly, keeping your knees extended (but not locked).",
+      "Pause for one second when you're standing as much on the tips of your toes as you can.",
+      "Lower your heels back to the ground, returning to the starting position."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Walking Lunges",
+    "main-targeted-area": ["quadriceps", "glutes", "hamstrings"],
+    "other-targeted-muscles": ["none"],
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["bodyweight", "legs", "push", "compound"],
+    "image": "https://static.wixstatic.com/media/2edbed_872fae6fd7094e109772c2d3328ae5ce~mv2.jpg/v1/fit/w_230%2Ch_219%2Cal_c%2Cq_80,enc_auto/file.jpg",
+    "gif": "https://www.inspireusafoundation.org/wp-content/uploads/2023/07/bodyweight-forward-lunge.gif",
+    "technique": [
+      "Stand tall with your feet hip distance apart.",
+      "Take a large step forward and lower your body toward the floor.  Both legs should be bent at a 90-degree angle at the bottom of the lunge.",
+      "Push off front leg to rise back up to start, and repeat on the other side."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Alternating Side Lunges",
+    "main-targeted-area": ["quadriceps", "hamstrings"],
+    "other-targeted-muscles": ["adductors", "glutes"],
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["pull", "bodyweight", "legs", "push", "compound"],
+    "image": "https://gethealthyu.com/wp-content/uploads/2022/09/Lateral-Lunge.png",
+    "gif": "https://fitnessprogramer.com/wp-content/uploads/2021/05/Side-Lunge-Stretch.gif",
+    "technique": [
+      "Stand tall with your feet hip distance apart.",
+      "Step out to the side with your left leg, bend your left knee and push your hips back.",
+      "Return to the starting position and repeat the movement with the right leg.",
+      "Keep alternating legs until the set is complete."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Lateral Side Steps",
+    "main-targeted-area": ["glutes", "quadriceps"],
+    "other-targeted-muscles": ["hamstrings"],
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["bodyweight", "legs", "push", "compound"],
+    "image": "https://media1.popsugar-assets.com/files/thumbor/LYaiQIWPMvn37OLGup-D5cp0_Kw=/fit-in/792x549/top/filters:format_auto():upscale()/2017/12/20/953/n/43387813/tmp_97ct09_7e85ea28cfcce5df_Basic-Squat.jpg",
+    "gif": "https://www.spotebi.com/wp-content/uploads/2017/10/lateral-walk-exercise-illustration-spotebi.gif",
+    "technique": [
+      "Position your feet shoulder-width apart. Bend your knees slightly and move into a half-squat position.",
+      "Maintaining the half-squat position, shift your weight over one leg and take a step sideways with the other leg. Move this leg in and out, sideways.",
+      "Keep your hips level during the movement. With this exercise, it helps to maintain a low, forward-facing posture. Your back should be straight, not rounded.",
+      "Slowly shift your weight and switch legs. "
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Glute Bridges",
+    "main-targeted-area": ["glutes"],
+    "other-targeted-muscles": ["hamstrings", "core"],
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["bodyweight", "legs", "push", "compound"],
+    "image": "https://www.burnthefatinnercircle.com/members/images/1698.jpg",
+    "gif": "https://homeworkouts.org/wp-content/uploads/anim-glute-bridges.gif",
+    "technique": [
+      "Tighten your abdominal and buttock muscles by pushing your low back into the ground.",
+      "Raise your hips to create a straight line from your knees to your shoulders.",
+      "Squeeze your core and pull your belly button back toward your spine.",
+      "Lower the hips to return to the starting position and repeat."
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Bird Dogs",
+    "main-targeted-area": ["glutes", "lower back"],
+    "other-targeted-muscles": ["core"],
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["pull", "bodyweight", "legs", "push", "back", "compound"],
+    "image": "https://www.lyfta.app/_next/image?url=%2Fthumbnails%2F12411201.jpg&w=3840&q=20",
+    "gif": "https://modusx.de/wp-content/uploads/bird-dog-armstuetz-mit-arm-und-beinheben.gif",
+    "technique": [
+      "Point one arm out straight in front and extend the opposite leg behind you, forming a straight line from your extended hand to your extended foot.",
+      "Keep your hips squared to the ground. If your low back begins to sag, raise your leg only as high as you can while keeping the back straight.",
+      "Hold for a few seconds, then return to your hands and knees. Keep your abs engaged throughout the entire exercise and work to minimize any extra motion in your hips during the weight shift.",
+      "Switch to the other side."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Side Lying Adductions",
+    "main-targeted-area": ["adductors"],
+    "other-targeted-muscles": ["none"],
+    "equipment": "none",
+    "level": "beginner",
+    "category": ["pull", "bodyweight", "legs"],
+    "image": "https://i.ytimg.com/vi/knGLKc1jbWs/maxresdefault.jpg",
+    "gif": "https://fitnessprogramer.com/wp-content/uploads/2022/06/Side-Lying-Hip-Adduction.gif",
+    "technique": [
+      "Lie on your side on a mat. Ensure that your spine is neutral and your hips are stacked. Keep your bottom arm folded under your head and your top hand on the floor in front of your stomach.",
+      "Bend your top knee so it points toward the ceiling and place the foot flat on the floor in front of your bottom leg.",
+      "Keeping your bottom leg long and foot flexed, lift your bottom leg off the floor, contracting your adductors.",
+      "Allow your leg to slowly return to the floor in a controlled motion and repeat."
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Goblet Squat",
+    "main-targeted-area": ["quadriceps", "glutes"],
+    "other-targeted-muscles": ["hamstrings"],
+    "equipment": "dumbells",
+    "level": "beginner",
+    "category": ["push", "compound", "legs", "dumbells"],
+    "image": "https://i.pinimg.com/564x/f3/76/c7/f376c7ad58aac267c38caed1852e7f8a.jpg",
+    "gif": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/explosive-goblet-squat.gif",
+    "technique": [
+      "Hold one dumbbell vertically at chest level, gripping the top of the dumbbell with both hands.",
+      "Stand with your feet slightly wider than shoulder-width apart, toes slightly turned out.",
+      "Keeping your chest up and core engaged, squat down by pushing your hips back and bending your knees.",
+      "Lower yourself until your thighs are parallel to the ground, or as low as you can comfortably go.",
+      "Push through your heels to return to the starting position."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Dumbell Lunges",
+    "main-targeted-area": ["quadriceps", "glutes", "hamstrings"],
+    "other-targeted-muscles": ["calves"],
+    "equipment": "dumbells",
+    "level": "beginner",
+    "category": ["push", "compound", "legs", "dumbells"],
+    "image": "https://i.pinimg.com/564x/ad/7b/08/ad7b080b3dfe180133e15483ca3d3d7a.jpg",
+    "gif": "https://fitnessprogramer.com/wp-content/uploads/2023/09/dumbbell-lunges.gif",
+    "technique": [
+      "Hold a dumbbell in each hand, with your arms fully extended down by your sides. Stand tall with your feet hip-width apart.",
+      "Take a large step forward with your right foot and lower your body until both knees are bent at a 90-degree angle. Your back knee should hover just above the ground.",
+      "Push through your right heel to return to the starting position and repeat on the other side."
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Romanian Deadlifts",
+    "main-targeted-area": ["hamstrings", "glutes", "lower back"],
+    "other-targeted-muscles": ["upper back"],
+    "equipment": "dumbells",
+    "level": "intermediate",
+    "category": ["compound", "legs", "dumbells", "back"],
+    "image": "https://i.pinimg.com/564x/1f/fe/be/1ffebeeca9fe394be07e3bf818ce5b89.jpg",
+    "gif": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Romanian-Deadlift.gif",
+    "technique": [
+      "Hold a dumbbell in each hand, palms facing your body, with your arms fully extended down in front of your thighs. Stand with your feet hip-width apart and a slight bend in your knees.",
+      "Keeping your back straight, hinge at your hips and lower the dumbbells towards the ground, sliding them down your legs.",
+      "Lower until you feel a stretch in your hamstrings, but avoid rounding your back.",
+      "Squeeze your glutes and hamstrings to return to the starting position."
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Dumbell Step-Ups",
+    "main-targeted-area": ["quadriceps", "glutes", "hamstrings"],
+    "other-targeted-muscles": ["calves"],
+    "equipment": "dumbells",
+    "level": "beginner",
+    "category": ["push", "compound", "legs", "dumbells"],
+    "image": "https://www.dmoose.com/cdn/shop/articles/1_6ecf1b5f-3555-476e-8303-6b2a4a99ded3.png?v=1646657742",
+    "gif": "https://i.pinimg.com/originals/bb/a5/82/bba582a86f0d4e6ed0bdb5f46ffa13a0.gif",
+    "technique": [
+      "Hold a dumbbell in each hand, with your arms fully extended down by your sides. Stand in front of a sturdy bench or step.",
+      "Step onto the bench with your right foot, pressing through your heel to lift your body up onto the bench.",
+      "Return to the starting position and repeat the movement with the right leg.",
+      "Bring your left foot up to meet your right foot.",
+      "Step back down with your left foot first, followed by your right, repeat by alternating the leading foot each time."
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Bulgarian Split Squats",
+    "main-targeted-area": ["glutes", "quadriceps"],
+    "other-targeted-muscles": ["calves", "hamstrings"],
+    "equipment": "dumbells",
+    "level": "intermediate",
+    "category": ["pull", "compound", "legs", "dumbells", "push"],
+    "image": "https://static.strengthlevel.com/images/exercises/dumbbell-bulgarian-split-squat/dumbbell-bulgarian-split-squat-800.jpg",
+    "gif": "https://i.pinimg.com/originals/b5/7f/76/b57f76fb76b2f768f1e4bcdf18c2bfce.gif",
+    "technique": [
+      "Stand about 2-3 feet in front of a bench or sturdy elevated surface, holding a dumbbell in each hand. Place the top of your left foot on the bench behind you.",
+      "Keeping your chest up and core engaged, lower your body by bending your right knee until your thigh is parallel to the ground, or as low as you can comfortably go.",
+      "Make sure your right knee stays aligned with your right ankle and doesn't extend past your toes.",
+      "Push through your right heel to return to the starting position. Repeat for the desired number of repetitions, then switch legs."
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Dumbbell Calf Raises",
+    "main-targeted-area": ["calves"],
+    "other-targeted-muscles": ["none"],
+    "equipment": "dumbells",
+    "level": "beginner",
+    "category": ["legs", "dumbells", "push"],
+    "image": "https://i.pinimg.com/736x/7b/9b/26/7b9b267719e0b7ed0881d93060c2dcd3.jpg",
+    "gif": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Calf-Raise.gif",
+    "technique": [
+      "Stand with your feet hip-width apart, holding a dumbbell in each hand by your sides.",
+      "Lift your heels off the ground as high as possible, squeezing your calf muscles at the top of the movement.",
+      "Hold for a moment, then slowly lower your heels back down to the starting position.",
+      "Make sure to keep your core engaged and avoid leaning forward or backward."
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Dumbbell Glute Bridges",
+    "main-targeted-area": ["glutes"],
+    "other-targeted-muscles": ["hamstrings", "lower back"],
+    "equipment": "dumbells",
+    "level": "beginner",
+    "category": ["compound", "legs", "dumbells", "back"],
+    "image": "https://www.lyfta.app/_next/image?url=%2Fthumbnails%2F34271201.jpg&w=3840&q=20",
+    "gif": "https://i.pinimg.com/originals/81/06/d4/8106d4d5f00a226f368bf0c4d201ab50.gif",
+    "technique": [
+      "Lie on your back on the floor with your knees bent and feet flat on the ground, hip-width apart.",
+      "Hold a dumbbell in each hand, resting them on your hips.",
+      "Engage your core and glutes, then lift your hips off the ground until your body forms a straight line from your shoulders to your knees.",
+      "Squeeze your glutes at the top of the movement, then slowly lower your hips back down to the starting position."
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Leg Press",
+    "main-targeted-area": ["quadriceps", "hamstrings", "glutes"],
+    "other-targeted-muscles": ["calves"],
+    "equipment": "machine",
+    "level": "beginner",
+    "category": ["compound", "legs", "machine", "push"],
+    "image": "https://i.pinimg.com/564x/9d/06/86/9d06860d5310b8d2d09c79cc5fb096ef.jpg",
+    "gif": "https://i.pinimg.com/originals/6e/77/3d/6e773d8f6913a93bf2a3e3d31e1e3f0f.gif",
+    "technique": [
+      "Sit on the leg press machine with your back flat against the backrest and your feet shoulder-width apart on the platform.",
+      "Adjust the seat and select an appropriate weight.",
+      "Push the platform away by straightening your legs, keeping your knees in line with your toes.",
+      "Lower the platform back down with control until your knees are bent at a 90-degree angle."
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Leg Curls",
+    "main-targeted-area": ["glutes", "quadriceps", "hamstrings"],
+    "other-targeted-muscles": ["hamstrings", "lower back"],
+    "equipment": "machine",
+    "level": "beginner",
+    "category": ["pull", "legs", "machine"],
+    "image": "https://i.pinimg.com/564x/6f/80/2d/6f802d1cc94f00dd554f17a1f1ea0512.jpg",
+    "gif": "https://i.pinimg.com/originals/6e/7b/20/6e7b20fe4aba56f1044c1277de42ab6d.gif",
+    "technique": [
+      "Stand about 2-3 feet in front of a bench or sturdy elevated surface, holding a dumbbell in each hand. Place the top of your left foot on the bench behind you.",
+      "Keeping your chest up and core engaged, lower your body by bending your right knee until your thigh is parallel to the ground, or as low as you can comfortably go.",
+      "Make sure your right knee stays aligned with your right ankle and doesn't extend past your toes.",
+      "Push through your right heel to return to the starting position. Repeat for the desired number of repetitions, then switch legs."
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Leg Extensions",
+    "main-targeted-area": ["quadriceps"],
+    "other-targeted-muscles": ["none"],
+    "equipment": "machine",
+    "level": "beginner",
+    "category": ["legs", "machine", "push"],
+    "image": "https://www.burnthefatinnercircle.com/members/images/1636.jpg?cb=20240423044647",
+    "gif": "https://i.pinimg.com/originals/2f/88/8a/2f888a80d3e49f5e31ee372116437540.gif",
+    "technique": [
+      "Sit on the leg extension machine. Adjust the seat so that the knee joint aligns with the pivot point of the machine and select weight.",
+      "Extend your legs fully by lifting the weight with your quadriceps, until your legs are straight but not locked out.",
+      "Hold for a brief moment at the top of the movement, squeezing your quadriceps.",
+      "Slowly lower the weight back down to the starting position under control, allowing your knees to bend."
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Hip Abductions",
+    "main-targeted-area": ["glutes"],
+    "other-targeted-muscles": ["none"],
+    "equipment": "machine",
+    "level": "beginner",
+    "category": ["legs", "machine"],
+    "image": "https://static.strengthlevel.com/images/exercises/hip-abduction/hip-abduction-800.jpg",
+    "gif": "https://newlife.com.cy/wp-content/uploads/2019/11/05971301-Lever-Seated-Hip-Abduction_Hips-FIX_360-1.gif",
+    "technique": [
+      "Sit on the hip abduction machine with your back against the backrest. Adjust the seat height and select an appropriate weight.",
+      "Place your outer thighs against the padded levers.",
+      "Exhale and push your legs outward against the resistance, focusing on using your outer thigh muscles.",
+      "Hold the contraction briefly at the end of the movement. Inhale and slowly return to the starting position, controlling the movement. Avoid swinging or using momentum to lift the weight."
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Hip Adductions",
+    "main-targeted-area": ["adductors"],
+    "other-targeted-muscles": ["none"],
+    "equipment": "machine",
+    "level": "beginner",
+    "category": ["legs", "machine"],
+    "image": "https://s3assets.skimble.com/assets/2773436/image_iphone.jpg",
+    "gif": "https://fitnessprogramer.com/wp-content/uploads/2021/02/HIP-ADDUCTION-MACHINE.gif",
+    "technique": [
+      "Sit on the hip adduction machine with your back against the backrest. Adjust the seat height and select an appropriate weight.",
+      "Place your inner thighs against the padded levers.",
+      "Exhale and squeeze your legs together against the resistance, focusing on using your inner thigh muscles.",
+      "Hold the contraction briefly at the end of the movement. Inhale and slowly return to the starting position, controlling the movement.",
+      "Keep your movements smooth and controlled throughout, avoiding jerking or using momentum."
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Jump Squats",
+    "main-targeted-area": ["quadriceps", "glutes"],
+    "other-targeted-muscles": ["calves", "hamstrings"],
+    "equipment": "none",
+    "level": "intermediate",
+    "category": ["legs", "bodyweight", "push", "compound"],
+    "image": "https://i.pinimg.com/564x/c5/e2/45/c5e245f9eb80f6e7d7d395b38219cacb.jpg",
+    "gif": "https://i.pinimg.com/originals/71/26/96/712696e622c5eab4b2e8556cec0e1d72.gif",
+    "technique": [
+      "Stand with your feet shoulder-width apart.",
+      "Lower into a squat position, keeping your chest up and core engaged.",
+      "Explosively jump up as high as you can.",
+      "Land softly and immediately lower back into a squat to begin the next repetition."
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Bulgarian Split Squats",
+    "main-targeted-area": ["quadriceps", "glutes"],
+    "other-targeted-muscles": ["calves", "hamstrings"],
+    "equipment": "none",
+    "level": "intermediate",
+    "category": ["legs", "bodyweight", "push", "compound"],
+    "image": "https://i.pinimg.com/564x/5b/a6/b1/5ba6b1080a7102836ee6f754ad06b964.jpg",
+    "gif": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/bulgarian-split-spuat.gif",
+    "technique": [
+      "Stand facing away from a bench or elevated surface.",
+      "Place the top of your left foot on the bench behind you.",
+      "Lower your body until your right thigh is parallel to the ground, keeping your right knee aligned with your ankle.",
+      "Push through your right heel to return to the starting position.",
+      "Complete all repetitions on one leg before switching to the other."
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Single-Leg Romanian Deadlifts",
+    "main-targeted-area": ["hamstrings", "glutes"],
+    "other-targeted-muscles": ["lower back", "core"],
+    "equipment": "none",
+    "level": "intermediate",
+    "category": ["legs", "bodyweight", "pull", "compound"],
+    "image": "https://apilyfta.com/static/GymvisualPNG/17021101-Single-Leg-Foot-Touch_Hips_small.png",
+    "gif": "https://fitnessprogramer.com/wp-content/uploads/2021/05/Bodyweight-Single-Leg-Deadlift.gif",
+    "technique": [
+      "Stand on your right leg with a slight bend in the knee.",
+      "Hinge at the hips and lower your torso while simultaneously lifting your left leg straight behind you, keeping your back flat.",
+      "Lower until your torso is parallel to the ground and your left leg is in line with your body.",
+      "Engage your right glute and hamstring to return to the starting position.",
+      "Complete all repetitions on one leg before switching to the other."
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Walking High Knee Lunges",
+    "main-targeted-area": ["quadriceps", "glutes"],
+    "other-targeted-muscles": ["hamstrings", "calves"],
+    "equipment": "none",
+    "level": "intermediate",
+    "category": ["legs", "bodyweight", "push", "compound"],
+    "image": "https://apilyfta.com/static/GymvisualPNG/39521101-High-Knees-Lunge-(female)_Cardio_small.png",
+    "gif": "https://i.pinimg.com/originals/16/b4/56/16b456f81ade5ff06dc63f1691531425.gif",
+    "technique": [
+      "Start standing with your feet hip-width apart.",
+      "Step forward with your right foot into a lunge position, lowering your body until both knees are bent at 90-degree angles.",
+      "As you push back up to the starting position, drive your left knee up towards your chest.",
+      "Step forward with your left foot into a lunge position and repeat the knee drive with your right leg.",
+      "Continue alternating legs as you walk forward."
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Glute Bridge Marches",
+    "main-targeted-area": ["glutes", "hamstrings"],
+    "other-targeted-muscles": ["core"],
+    "equipment": "none",
+    "level": "intermediate",
+    "category": ["legs", "bodyweight", "push", "compound"],
+    "image": "https://bretcontreras.com/wp-content/uploads/glute-march.jpg",
+    "gif": "https://hips.hearstapps.com/hmg-prod/images/workouts/2016/08/glutebridgemarch-1472218794.gif",
+    "technique": [
+      "Lie on your back with your knees bent and feet flat on the ground, hip-width apart.",
+      "Lift your hips up into a glute bridge position, forming a straight line from your shoulders to your knees.",
+      "Lift your right foot off the ground, bringing your right knee towards your chest.",
+      "Lower your right foot back to the ground and repeat the movement with your left leg.",
+      "Continue alternating leg marches while maintaining the bridge position."
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Side Lunges",
+    "main-targeted-area": ["quadriceps", "glutes"],
+    "other-targeted-muscles": ["adductors", "hamstrings"],
+    "equipment": "none",
+    "level": "intermediate",
+    "category": ["legs", "bodyweight", "push", "compound"],
+    "image": "https://static.strengthlevel.com/images/exercises/side-lunge/side-lunge-800.jpg",
+    "gif": "https://www.inspireusafoundation.org/wp-content/uploads/2023/08/side-lunge.gif",
+    "technique": [
+      "Stand with your feet hip-width apart and hands on your hips or in front of you for balance.",
+      "Take a large step to the right with your right foot, bending your right knee and pushing your hips back to lower into a side lunge.",
+      "Keep your left leg straight as you lower your body, keeping your chest up and core engaged.",
+      "Push through your right heel to return to the starting position.",
+      "Repeat the movement on the left side, stepping to the left and lunging with your left leg."
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Wall Sit Calf Raises",
+    "main-targeted-area": ["quadriceps", "calves"],
+    "other-targeted-muscles": ["glutes"],
+    "equipment": "none",
+    "level": "intermediate",
+    "category": ["legs", "bodyweight", "push", "compound"],
+    "image": "https://images.squarespace-cdn.com/content/v1/5ffcea9416aee143500ea103/1638439598799-V6MB57U39FPIDE0GYD5I/Wall%2BSits%2BOn%2BToes.png",
+    "gif": "https://healthywestorange.org/wp-content/uploads/72-Wall-Sit-Plie-Calf-Raise.gif",
+    "technique": [
+      "Stand with your back against a wall and lower your body into a seated position, with your thighs parallel to the ground.",
+      "Keep your back flat against the wall and hold this position.",
+      "Once in the wall sit position, lift your heels off the ground as high as you can to perform a calf raise.",
+      "Lower your heels back down to the ground and repeat the calf raises.",
+      "Hold the wall sit position for as long as you can while performing the calf raises."
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Pistol Squats",
+    "main-targeted-area": ["quadriceps", "glutes"],
+    "other-targeted-muscles": ["hamstrings", "calves"],
+    "equipment": "none",
+    "level": "advanced",
+    "category": ["legs", "bodyweight", "compound", "push"],
+    "image": "https://i.pinimg.com/564x/34/5c/f9/345cf9e8693c2a433c5ab420cce84f37.jpg",
+    "gif": "https://www.inspireusafoundation.org/wp-content/uploads/2022/09/pistol-squat-muscles.gif",
+    "technique": [
+      "Stand on one leg with the other leg extended in front of you.",
+      "Lower your body down into a squat position on the standing leg, keeping the extended leg off the ground.",
+      "Lower as far as you can while maintaining balance and control.",
+      "Push through the heel of the standing leg to return to the starting position."
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Shrimp Squats",
+    "main-targeted-area": ["quadriceps", "glutes"],
+    "other-targeted-muscles": ["hamstrings"],
+    "equipment": "none",
+    "level": "advanced",
+    "category": ["legs", "bodyweight", "push"],
+    "image": "https://fitnessvolt.com/wp-content/uploads/2022/08/Shrimp-Squats-Muscles-Worked-750x670.jpg",
+    "gif": "https://www.inspireusafoundation.org/wp-content/uploads/2022/11/shrimp-squat.gif",
+    "technique": [
+      "Stand on one leg and reach back with the opposite hand to grab the ankle of the other foot.",
+      "Lower your body down into a squat position, keeping your torso upright and chest lifted.",
+      "Descend until your knee gently touches the ground.",
+      "Push through the heel of the standing leg to return to the starting position."
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Bulgarian Split Squat Jumps",
+    "main-targeted-area": ["quadriceps", "glutes"],
+    "other-targeted-muscles": ["hamstrings", "calves"],
+    "equipment": "none",
+    "level": "advanced",
+    "category": ["legs", "bodyweight", "compound", "push"],
+    "image": "https://i.pinimg.com/originals/04/c8/87/04c887865cfda804d79b143f5faf40e0.png",
+    "gif": "https://fitnessprogramer.com/wp-content/uploads/2023/03/Bulgarian-Jump-Squat.gif",
+    "technique": [
+      "Stand facing away from a bench or elevated surface with one foot on the bench behind you.",
+      "Lower your body down into a split squat position.",
+      "Explosively jump up, switching legs mid-air so that the other foot lands on the bench and the first foot moves back to the ground.",
+      "Land softly and immediately lower your body back into a split squat position."
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Single-Leg Box Jumps",
+    "main-targeted-area": ["quadriceps", "glutes"],
+    "other-targeted-muscles": ["hamstrings", "calves"],
+    "equipment": "none",
+    "level": "advanced",
+    "category": ["legs", "bodyweight", "compound", "push"],
+    "image": "https://s3assets.skimble.com/assets/2149953/skimble-workout-trainer-exercise-right-leg-box-jumps-3_full.jpg",
+    "gif": "https://fitnessprogramer.com/wp-content/uploads/2023/02/Single-Leg-Box-Jump.gif",
+    "technique": [
+      "Stand on one leg in front of a box or elevated surface.",
+      "Lower into a quarter squat position.",
+      "Explosively jump up onto the box, driving through the heel of the standing leg.",
+      "Land softly on the box with the same leg."
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Elevated Single-Leg Glute Bridges",
+    "main-targeted-area": ["glutes", "hamstrings"],
+    "other-targeted-muscles": ["core"],
+    "equipment": "none",
+    "level": "advanced",
+    "category": ["legs", "bodyweight", "compound", "push"],
+    "image": "https://www.burnthefatinnercircle.com/members/images/2025.jpg",
+    "gif": "https://i.pinimg.com/originals/28/76/08/2876080030f254f704a9edf5f3c17628.gif",
+    "technique": [
+      "Lie on your back with one foot elevated on a bench or step and the other leg extended straight up.",
+      "Lift your hips off the ground, driving through the heel of the elevated foot.",
+      "Squeeze your glutes at the top of the movement.",
+      "Lower your hips back down and repeat."
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Alternating Jumping Lunges",
+    "main-targeted-area": ["quadriceps", "glutes"],
+    "other-targeted-muscles": ["hamstrings", "calves"],
+    "equipment": "none",
+    "level": "advanced",
+    "category": ["legs", "bodyweight", "compound", "push"],
+    "image": "https://hips.hearstapps.com/hmg-prod/images/jumping-lunges-1655394656.jpg?resize=980:*",
+    "gif": "https://hips.hearstapps.com/hmg-prod/images/workouts/2016/03/splitjump-1457044565.gif",
+    "technique": [
+      "Start in a lunge position with your right foot forward and left foot back.",
+      "Lower your body into a lunge.",
+      "Explosively jump up, switching legs mid-air so that your left foot is now forward and right foot is back.",
+      "Land softly and immediately lower your body into a lunge on the opposite side."
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Single-Leg Calf Raises",
+    "main-targeted-area": ["calves"],
+    "other-targeted-muscles": ["none"],
+    "equipment": "none",
+    "level": "advanced",
+    "category": ["legs", "bodyweight", "push"],
+    "image": "https://www.dmoose.com/cdn/shop/articles/1_95fa0985-c078-45dc-b254-057c7ab6ca13.jpg?v=1653302213",
+    "gif": "https://www.inspireusafoundation.org/wp-content/uploads/2021/06/single-leg-standing-calf-raise.gif",
+    "technique": [
+      "Stand on one leg with the other leg lifted slightly off the ground.",
+      "Raise your heel as high as possible by pushing through the ball of your foot.",
+      "Hold the top position briefly, then lower your heel back down to the ground.",
+      "Repeat for the desired number of repetitions."
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Copenhagen Plank",
+    "main-targeted-area": ["core"],
+    "other-targeted-muscles": ["abductors"],
+    "equipment": "none",
+    "level": "advanced",
+    "category": ["bodyweight", "core", "compound"],
+    "image": "https://pbs.twimg.com/media/F3uhIiJWcAE5tJi.png",
+    "gif": "https://pbs.twimg.com/media/F3uhIiJWcAE5tJi.png",
+    "technique": [
+      "Begin by lying on your side on a mat or other comfortable surface.",
+      "Prop yourself up on your elbow, keeping it directly beneath your shoulder.",
+      "Stack your feet on top of each other, with your body forming a straight line from your head to your heels.",
+      "Lift your hips off the ground, engaging your core muscles to maintain stability.",
+      "With control, lift your top leg upward as high as you can while keeping it straight.",
+      "Hold this position for the desired amount of time or for as long as you can maintain proper form.",
+      "Slowly lower your leg back down to the starting position."
+    ]
+  }
+]

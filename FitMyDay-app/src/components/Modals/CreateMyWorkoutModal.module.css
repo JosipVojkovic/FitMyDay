@@ -1,0 +1,383 @@
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  min-width: 350px;
+  max-width: 674px;
+  max-height: 80%;
+  background-image: url("https://wallpapers.com/images/high/4k-carbon-fiber-plain-nsteylouzdj0xkrq.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 30px 30px 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border: 1px solid black;
+  box-shadow: 0px 4px 8px black;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal .exitIcon {
+  background-color: #b83021;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  fill: white;
+  cursor: pointer;
+  transition: ease 0.1s;
+}
+
+.modal .exitIcon:hover {
+  transform: scale(1.1);
+}
+
+.modal .add {
+  background-color: #b83021;
+  border: none;
+  color: white;
+  padding: 8px 0;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: ease 0.1s;
+  margin-bottom: 15px;
+}
+
+.modal .filterBar {
+  width: 100%;
+  display: flex;
+  column-gap: 6px;
+  margin-bottom: 15px;
+}
+
+.filterBar .searchBar {
+  border-radius: 50px;
+  width: 43px;
+  height: 39px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filterBar .searchBar:hover {
+  background-color: #b83021;
+  color: white;
+}
+
+.filterBar .searchBarActive {
+  border-radius: 50px;
+  height: 39px;
+  width: 100%;
+  border: none;
+  background-color: #b83021;
+  color: white !important;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  padding: 0 15px 0 5px;
+}
+
+.searchBarActive input[type="text"] {
+  width: 100%;
+  border: none;
+}
+
+.filterBar .searchBar,
+.searchBarActive i {
+  cursor: pointer;
+  transition: ease 0.1s;
+}
+
+.searchBarActive i:hover {
+  transform: scale(1.2);
+}
+
+.modal .filter {
+  width: 100%;
+  height: 39px;
+  background-color: transparent;
+  padding: 6px 0;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: ease 0.1s;
+  border: 3px solid white;
+  color: white;
+}
+
+.modal .filterActive {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 6px 0 13px 0;
+  border-radius: 20px 20px 0 0;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: ease 0.1s;
+  border: 3px solid white;
+}
+
+.modal .filterActive i {
+  transform: rotate(180deg);
+}
+
+.modal .add:hover {
+  transform: scale(1.05);
+}
+
+.modal .filter:hover {
+  background-color: white;
+  color: black;
+}
+
+.filterDiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  padding: 0 0 10px 0;
+  border-radius: 0 20px 20px 20px;
+}
+
+.filterDiv > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  border-right: 1px solid rgb(228, 228, 228);
+  flex: 20%;
+  padding: 5px 15px;
+}
+
+.filterDiv > div:last-of-type {
+  border-right: none;
+}
+
+.filterDiv > div label {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.filterDiv > div input[type="checkbox"] {
+  cursor: pointer;
+  width: 16px;
+  height: 20px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.exerciseMainDiv {
+  display: flex;
+  column-gap: 15px;
+  width: 100%;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding: 15px 0;
+  position: relative;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.cursor:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.selectedExercises {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 7px;
+  margin-bottom: 15px;
+}
+
+.selectedExercises p {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 0 15px;
+  font-size: 15px;
+}
+
+.exerciseMainDiv .exerciseQuantity {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 3px;
+}
+
+.exerciseQuantity svg {
+  width: 25px;
+  height: 25px;
+  fill: white;
+  cursor: pointer;
+  animation: boxIcon ease-out 0.1s;
+}
+
+.exerciseQuantity .changeQuantity {
+  background-color: white;
+  border-radius: 5px;
+  fill: black;
+  padding: 5px;
+  width: 13px !important;
+  height: 13px !important;
+}
+
+.exerciseQuantity .changeQuantity:hover {
+  background-color: #b83021;
+  fill: white;
+}
+
+.exerciseQuantity p {
+  margin-right: 3px;
+}
+
+.exerciseQuantity .boxIcon {
+  width: 25px;
+  height: 25px;
+  fill: white;
+  cursor: pointer;
+  animation: boxIcon ease-out 0.1s;
+}
+
+.exerciseQuantity .boxIconActive {
+  cursor: pointer;
+  fill: green;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  animation: boxIconActive ease-out 0.2s;
+}
+
+@keyframes boxIconActive {
+  0% {
+    scale: 1;
+  }
+  20% {
+    scale: 0.8;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+@keyframes boxIcon {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.exerciseMainDiv:last-of-type {
+  border-bottom: none;
+}
+
+.exerciseMainDiv img {
+  width: 200px;
+  min-width: 200px;
+  height: 180px;
+  background-color: white;
+  border-radius: 10px;
+}
+.exerciseMainDiv > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 5px;
+  justify-content: center;
+}
+
+.exerciseMainDiv > div > h1 {
+  text-align: center;
+}
+
+.exerciseMainDiv > div > p {
+  text-align: left;
+}
+
+.exerciseMainDiv > div > button {
+  border: 3px solid #b83021;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 0;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.exerciseMainDiv > div > button:hover {
+  background-color: #b83021;
+}
+
+.submit {
+  position: fixed;
+  bottom: 50px;
+  width: 30px;
+  height: 30px;
+  fill: white;
+  background-color: green;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  cursor: pointer;
+  border: 2px solid white;
+  animation: submitAnimation ease 0.1s;
+}
+
+.submit:hover {
+  transform: scale(1.1) translate(-50%, 0);
+  transform-origin: 0%;
+}
+
+@keyframes submitAnimation {
+  from {
+    transform: translate(-50%, 100px);
+  }
+  to {
+    transform: translate(-50%, 0%);
+  }
+}
